@@ -13,29 +13,33 @@ timezone: Asia/Shanghai
 
 # jekyll-seo-tag 设置 › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
+# 主要标题
+title: 缤纷
 
-title: "缤纷" # 主要标题
+# 将显示为副标题
+tagline: 世间百态 人性丑恶
 
-tagline: "世间百态 人性丑恶" # 将显示为副标题
-
-description: >- # 用于 seo 元数据和 atom feed
+# 用于 seo 元数据和 atom feed
+description: >-
   一个简约、响应式且功能丰富的 Jekyll 主题，适用于技术写作。
 
 # 填写您站点的协议和主机名。
 # 例如 'https://username.github.io'，注意不要以 '/' 结尾。
 url: "https://binfen23.github.io"
 
+# 更改为您的 GitHub 用户名
 github:
-  username: binfen23 # 更改为您的 GitHub 用户名
+  username: binfen23
 
+# # 更改为您的 Twitter 用户名
 # twitter:
-#   username: twitter_username # 更改为您的 Twitter 用户名
+#   username: twitter_username
 
+# 更改为您的全名。
+# 它将显示为文章的默认作者和页脚中的版权所有者。
 social:
-  # 更改为您的全名。
-  # 它将显示为文章的默认作者和页脚中的版权所有者。
   name: Zeb
-  email: bfkjz@outlook.com # 更改为您的电子邮件地址
+  email: bfkjz@outlook.com
   links:
     # 第一个元素作为版权所有者的链接
     # - https://twitter.com/username # 更改为您的 Twitter 主页
@@ -101,29 +105,30 @@ avatar: /assets/img/favicons/android-chrome-512x512.png
 # 可以通过 front matter 中的自定义 `page.image` 覆盖。
 social_preview_image: # 字符串，本地或 CORS 资源
 
-# 布尔类型，文章中显示目录的全局开关。
+# boolean type, the global switch for TOC in posts.
 toc: true
+
 comments:
   # 文章评论系统的全局开关。保持空白表示禁用。
   provider: # [disqus | utterances | giscus]
   # 提供者选项如下：
   disqus:
-    shortname: # 填写 Disqus 的 shortname › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-  # utterances 设置 › https://utteranc.es/
+    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  # utterances settings › https://utteranc.es/
   utterances:
     repo: # <gh-username>/<repo>
     issue_term: # < url | pathname | title | ...>
-  # Giscus 设置 › https://giscus.app
+  # Giscus options › https://giscus.app
   giscus:
     repo: # <gh-username>/<repo>
     repo_id:
     category:
     category_id:
-    mapping: # 可选，默认 'pathname'
-    strict: # 可选，默认 '0'
-    input_position: # 可选，默认 'bottom'
-    lang: # 可选，默认 `site.lang` 的值
-    reactions_enabled: # 可选，默认 '1'
+    mapping: # optional, default to 'pathname'
+    strict: # optional, default to '0'
+    input_position: # optional, default to 'bottom'
+    lang: # optional, default to the value of `site.lang`
+    reactions_enabled: # optional, default to the value of `1`
 
 # 自托管静态资产，可选 › https://github.com/cotes2020/chirpy-static-assets
 assets:
