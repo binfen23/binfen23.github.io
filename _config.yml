@@ -105,7 +105,7 @@ social_preview_image: # 字符串，本地或 CORS 资源
 toc: true
 comments:
   # 文章评论系统的全局开关。保持空白表示禁用。
-  provider: "utterances" # [disqus | utterances | giscus]
+  provider: # [disqus | utterances | giscus]
   # 提供者选项如下：
   disqus:
     shortname: # 填写 Disqus 的 shortname › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
