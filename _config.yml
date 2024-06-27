@@ -14,10 +14,10 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag 设置 › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 # 主要标题
-title: 缤纷
+title: "缤纷"
 
 # 将显示为副标题
-tagline: 世间百态 人性丑恶
+tagline: "世间百态 人性丑恶"
 
 # 用于 seo 元数据和 atom feed
 description: >-
