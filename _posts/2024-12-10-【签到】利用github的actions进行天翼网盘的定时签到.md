@@ -30,10 +30,10 @@ mermaid: false
 `USERNAME` `PASSWORD` `WEBHOOK` 
 
 | 变量名 | 单账户 | 多账户 | 备注 |  
-| :---------: | :---------: | :---------: | :---------: |  
+| --------- | --------- | --------- | --------- |  
 | USERNAME | 15000000000 | 15000000000,13000000000 | 多账号用 `，` 隔开 （*支持中文逗号） |  
 | PASSWORD | abc123 | abc123，def456 | 多账号用 `，` 隔开 （*支持中文逗号） |  
-| WEBHOOK | https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx  |  | 企业微信群聊机器人的webhook地址 |  
+| WEBHOOK | https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx  |    | 企业微信群聊机器人的webhook地址 |  
 #### 账号  
 Name*  填入 `USERNAME`    
 Secret* 填入 账号   
