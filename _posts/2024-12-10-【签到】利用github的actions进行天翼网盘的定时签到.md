@@ -29,11 +29,11 @@ mermaid: false
 
 `USERNAME` `PASSWORD` `WEBHOOK` 
 
-| 变量名 | 单账户 | 多账户 | 备注 |
-| :---------: | :---------: | :---------: | :---------: |
-| USERNAME | 15000000000 | 15000000000,13000000000 | 多账号用 `，` 隔开 （*支持中文逗号） |
-| PASSWORD | abc123 | abc123，def456 | 多账号用 `，` 隔开 （*支持中文逗号） |
-| WEBHOOK | https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx  |  | 企业微信群聊机器人的webhook地址 |
+| 变量名 | 单账户 | 多账户 | 备注 |  
+| :---------: | :---------: | :---------: | :---------: |  
+| USERNAME | 15000000000 | 15000000000,13000000000 | 多账号用 `，` 隔开 （*支持中文逗号） |  
+| PASSWORD | abc123 | abc123，def456 | 多账号用 `，` 隔开 （*支持中文逗号） |  
+| WEBHOOK | https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx  |  | 企业微信群聊机器人的webhook地址 |  
 #### 账号  
 Name*  填入 `USERNAME`    
 Secret* 填入 账号   
@@ -372,7 +372,8 @@ if __name__ == "__main__":
 `workers设置` -  `触发事件` -  `添加`  - `Cron 触发器` - `Cron 表达式` - `填写 0 2 * * *  ` 
 以上是设置每天的早上10点触发，由于cloudflare的cron使用的是UTC时区，所以+8的话就是对应的中国的早上10点
 
-```JavaScript  
+```javascript  
+
 // 定义 fetch 事件处理器，用于处理常规的HTTP请求
 addEventListener('fetch', event => {
   // 对于非Cron触发的请求
@@ -424,6 +425,7 @@ async function handleRequest() {
     throw new Error(`请求过程中发生错误: ${error.message}`);
   }
 }
+
 ```
   
 
