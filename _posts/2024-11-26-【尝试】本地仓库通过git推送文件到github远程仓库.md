@@ -1,5 +1,5 @@
 ---
-title: 【尝试】本地仓库通过git推送文件到github远程仓库
+title: [尝试] 本地仓库通过git推送文件到github远程仓库
 description: 0基础。记录在本地仓库从0开始使用git工具推送文件到github远程仓库
 date: 2024-11-26 17:29:12 +0800
 categories: []
@@ -8,6 +8,7 @@ pin: false
 math: false
 mermaid: false
 ---
+>最近修改日期：2025-10-07 18:26:49  
 > 本次尝试在 华为云 服务器上进行。
 > 环境：debian系统
 
