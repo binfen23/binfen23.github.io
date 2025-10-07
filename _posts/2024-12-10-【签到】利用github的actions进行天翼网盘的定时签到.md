@@ -1,12 +1,14 @@
 ---
-title: 【签到】利用github的actions进行天翼网盘的定时签到
+title: 利用github的actions进行天翼网盘的定时签到
 description: 利用github的actions和cloudflare定时触发签到并且用企业微信机器人进行通知
 date: 2024-12-10 12:12:56 +0800
 categories: []
-	@@ -8,202 +8,8 @@ pin: false
+tags: [github,网盘,actions,签到,消息推送]
+pin: false
 math: false
 mermaid: false
 ---
+
 ## 说明
 > 代码由网络收集、ai回答、整理后修改而成，出自哪位原作者已经无从得知    
 > 于 2024.11.28 测试通过，可以正常 签到、推送 通知   
@@ -389,3 +391,4 @@ async function handleRequest() {
 ```
   
 ## All Done!!
+
